@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    th,
+    td,
+    tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .table {
+        width: 400px;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    table {
+        width: 450px;
+        height: 350px;
+        background-color: #00FFFF;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    input {
+        margin-left: -30px;
+    }
+
+    select {
+        margin-left: -70px;
+        width: 120px;
+    }
+</style>
+
+<body>
+    <h1>Phiếu đăng kí chương trình khuyến mãi</h1>
+    <div class="table">
+        <table>
+            <tr>
+                <td>Họ Và Tên</td>
+                <th>
+                    <form><input type="text"></form>
+                </th>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <th>
+                    <form><input type="text"></form>
+                </th>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <th>
+                    <form><input type="text"></form>
+                </th>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <th>
+                    <label class="container" style="margin-left: -100px;">Nam
+                        <input type="radio" checked="checked" name="radio" style="margin-left: -50px;">
+
+                    </label>
+                    <label class="container" style="margin-left: 50px;">Nữ
+                        <input type="radio" name="radio" style="margin-left: -40px;">
+
+                    </label>
+                </th>
+            </tr>
+            <tr>
+                <td>Nghề Nghiệp</td>
+                <th>
+                    <form>
+                        <select name="" id="">
+                            <option value="1">Giáo viên</option>
+                            <option value="2">Học Sinh</option>
+                            <option value="3">Sinh Viên</option>
+                            <option value="4">Vô công rồi nghề</option>
+                        </select>
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <th>
+                    <form>
+                        <select name="" id="">
+                            <option value="1">Kem đánh răng</option>
+                            <option value="2">Bột Giặt</option>
+                            <option value="3">Dầu gội đầu</option>
+                            <option value="4">Sữa tắm</option>
+                        </select>
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <td>Số người dự đoán</td>
+                <th>
+                    <form><input type="text"></form>
+                </th>
+            </tr>
+            <tr>
+
+                <th colspan="2"> <button>Đồng ý</button></th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
